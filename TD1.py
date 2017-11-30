@@ -1,5 +1,7 @@
 import math
+import matplotlib.pyplot as plt
 
+from random import random
 from random import randint
 
 def average(lst):
@@ -78,7 +80,6 @@ print(str(unique(l)))
 print(str(square(l2)))
 print(str(stddev(l4)))
 
-from random import random
 def uniform():
 	return 0 if random()<=0.5 else 1
 
@@ -92,8 +93,6 @@ def uniform_test(count):
 print(str(uniform()))
 print(str(uniform_test(100000)))
 
-
-
 # In theory, we will have n*p
 def exam_succ(n, p):
 	num_succ = 0
@@ -104,17 +103,15 @@ def exam_succ(n, p):
 
 def exam_succ_test():
 	for i in range(100000):
-
+		for j in range(100)
+			exam_succ(j, 0.5)
 
 # Le lio binomial
-import matplotlib.pyplot as plt
 plt.hist(results, 100)
 plt.show()
 
 print(str(exam_succ(1000, 0.5)))
 
-
-from random import randint
 def monty_hall(change):
 	winning_door = randint(1,3)
 	chosen_door = randint(1,3)
